@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-carbonex/static/css/main.ed1b6c17.css",
-    "main.js": "/react-carbonex/static/js/main.d11ac8ad.js",
+    "main.js": "/react-carbonex/static/js/main.a8ab9a6c.js",
     "static/media/indpic.jpg": "/react-carbonex/static/media/indpic.758b78bd086f2a1d4160.jpg",
     "static/media/main.jpg": "/react-carbonex/static/media/main.25dd3d37397e5770999b.jpg",
     "static/media/map.jpg": "/react-carbonex/static/media/map.a829d7fae551a037611b.jpg",
@@ -41,10 +41,10 @@
     "index.html": "/react-carbonex/index.html",
     "static/media/arrow.svg": "/react-carbonex/static/media/arrow.b23842cdcf5fcfe4e323058511dac709.svg",
     "main.ed1b6c17.css.map": "/react-carbonex/static/css/main.ed1b6c17.css.map",
-    "main.d11ac8ad.js.map": "/react-carbonex/static/js/main.d11ac8ad.js.map"
+    "main.a8ab9a6c.js.map": "/react-carbonex/static/js/main.a8ab9a6c.js.map"
   },
   "entrypoints": [
     "static/css/main.ed1b6c17.css",
-    "static/js/main.d11ac8ad.js"
+    "static/js/main.a8ab9a6c.js"
   ]
 }
