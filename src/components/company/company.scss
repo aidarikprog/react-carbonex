@@ -1,0 +1,91 @@
+.comp {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 80px;
+      &__top {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            align-items: center;
+      }
+      &__bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-pic {
+                  margin-right: 60px;
+            }
+      }
+      &__text {
+            &-1 {
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 22px;
+                  color: #323232;
+            }
+      }
+      &__nav {
+            align-items: center;
+            display: flex;
+      }
+}
+.nav {
+      margin: 100px 0 40px;
+      &__main {
+            margin-right: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            opacity: 0.5;
+      }
+      img {
+            margin-right: 10px;
+      }
+      div {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+      }
+}
+
+@media (max-width: 768px) {
+      .comp {
+            &__top {
+                  flex-wrap: wrap-reverse;
+            }
+            &__pic {
+                  max-width: 738px;
+                  margin-bottom: 30px;
+            }
+            &__bottom {
+                  flex-wrap: wrap;
+            }
+            &__bottom-pic {
+                  max-width: 738px;
+                  margin-bottom: 30px;
+            }
+      }
+}
+
+@media (max-width: 320px) {
+      .comp {
+            &__top,
+            &__bottom {
+                  text-align: center;
+            }
+            &__top {
+                  flex-wrap: wrap-reverse;
+            }
+            &__pic {
+                  max-width: 290px;
+            }
+            &__bottom {
+                  flex-wrap: wrap;
+            }
+            &__bottom-pic {
+                  max-width: 290px;
+            }
+      }
+}

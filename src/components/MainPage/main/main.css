@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.main__back {
+  background: url("./main.jpg") center center/cover no-repeat;
+  height: 100мр;
+  padding: 300px 0 394px;
+}
+
+.main {
+  width: 803px;
+}
+.main__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.main__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.main__btn {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 15px 73px;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+}/*# sourceMappingURL=main.css.map */

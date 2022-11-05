@@ -1,0 +1,73 @@
+.footer__back {
+  background-color: #323232;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+.footer__items {
+  display: flex;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer__img {
+  margin-right: 12px;
+}
+.footer__links {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.footer__item:not(:last-child) {
+  margin-right: 24px;
+}
+.footer__num {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.footer__small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.footer__mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-right: 32px;
+}
+.footer__adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.footer__info {
+  display: flex;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,90 @@
+.ind {
+      &__heading {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+      }
+      &__title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin: 50px 0 35px;
+      }
+      &__columns {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 445px);
+            gap: 18px 32px;
+            justify-content: space-between;
+      }
+      &__items {
+            text-align: center;
+      }
+      &__item img,
+      h1,
+      p {
+            margin-bottom: 10px;
+      }
+      &__content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 80px 0;
+      }
+      &__text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            max-width: 565px;
+      }
+      &__pic {
+            width: 803px;
+            height: 391px;
+      }
+}
+
+@media (max-width: 768px) {
+      .ind {
+            &__title {
+                  margin: 40px 0 30px;
+            }
+            &__columns {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-around;
+            }
+            &__text {
+                  max-width: 738px;
+            }
+            &__content {
+                  flex-wrap: wrap-reverse;
+                  margin-bottom: 50px;
+            }
+            &__pic {
+                  max-width: 738px;
+                  margin-bottom: 30px;
+            }
+      }
+}
+
+@media (max-width: 320px) {
+      .ind {
+            &__text {
+                  max-width: 738px;
+            }
+            &__content {
+                  margin-top: 40px;
+                  text-align: center;
+            }
+            &__pic {
+                  max-width: 290px;
+                  max-height: 153px;
+            }
+      }
+}

@@ -1,0 +1,100 @@
+.ReactModal__Overlay .ReactModal__Overlay--after-open{
+      background-color: red;
+}
+
+.modal {
+      max-width: 684px;
+      margin: 0 auto;
+      padding: 0 10px;
+      text-align: center;
+      align-items: center;
+      margin-top: 101px;
+      background: #ffffff;
+      border-radius: 8px;
+      &__title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            max-width: 538px;
+            margin-bottom: 30px;
+      }
+      &__content {
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+      }
+}
+.form {
+      &__name {
+            padding: 13px 0;
+      }
+      &__tel {
+            padding: 13px 0;
+            margin: 30px 0;
+      }
+      &__btn {
+            max-width: 624px;
+            background: #007fa7;
+            border-radius: 8px;
+            padding: 15px 263px;
+      }
+      &__name,
+      &__tel {
+            background: #d9d9d9;
+            border-radius: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            width: 624px;
+      }
+      &__btn {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #ffffff;
+      }
+}
+
+
+@media (max-width: 768px) {
+      .modal {
+            max-width: 678px;
+      }
+}
+@media (max-width: 320px) {
+      .modal {
+            max-width: 290px;
+            &__title {
+                  font-size: 16px;
+                  line-height: 19px;
+                  margin-bottom: 20px;
+            }
+      }
+
+      .form {
+            &__tel {
+                  margin: 20px 0;
+            }
+            &__btn {
+                  font-size: 14px;
+                  line-height: 16px;
+                  padding: 11px 82px;
+            }
+            &__name,
+            &__tel {
+                  width: 250px;
+                  font-size: 14px;
+                  line-height: 19px;
+            }
+      }
+}

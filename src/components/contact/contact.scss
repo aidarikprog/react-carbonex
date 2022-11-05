@@ -1,0 +1,130 @@
+.nav {
+      margin: 100px 0 40px;
+      &__main {
+            margin-right: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            opacity: 0.5;
+      }
+      img {
+            margin-right: 10px;
+      }
+      div {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+      }
+}
+.contact {
+      display: flex;
+      flex-direction: column;
+      &__nav {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+      }
+      &__map {
+            max-width: 832px;
+      }
+}
+.cont {
+      &__content {
+            margin-bottom: 80px;
+      }
+      &__infos {
+            max-width: 565px;
+      }
+      &__content {
+            display: flex;
+            justify-content: space-between;
+      }
+      &__title {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 25px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #323232;
+            margin-bottom: 24px;
+      }
+      &__info {
+            display: flex;
+            justify-content: space-between;
+            &-left {
+                  margin-right: 32px;
+                  width: 85px;
+            }
+      }
+}
+.info-left {
+      &-adress {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            opacity: 0.5;
+            margin-bottom: 15px;
+      }
+      &-tel {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            opacity: 0.5;
+      }
+}
+.info-right {
+      &-adress {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #323232;
+            margin-bottom: 15px;
+      }
+      &-tel {
+            color: #007fa7;
+      }
+      &-tel,
+      &-tel1 {
+            margin-bottom: 10px;
+      }
+}
+
+@media (max-width: 768px) {
+      .cont {
+            &__content {
+                  flex-wrap: wrap-reverse;
+                  justify-content: center;
+            }
+      }
+      .contact {
+            &__map {
+                  max-width: 732px;
+            }
+      }
+}
+
+@media (max-width: 320px) {
+      .cont {
+            &__title {
+                  font-size: 16px;
+            }
+            &__content{
+                  margin-bottom: 50px;
+            }
+      }
+      .info-right-adress{
+            margin-bottom: 20px;
+      }
+      .info-left-adress{
+            margin-bottom: 40px;
+      }
+      .contact {
+            &__map {
+                  max-width: 290px;
+            }
+      }
+}

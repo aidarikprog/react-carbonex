@@ -1,0 +1,50 @@
+.comp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.comp__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.comp__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comp__bottom-pic {
+  margin-right: 60px;
+}
+.comp__text-1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+.comp__nav {
+  align-items: center;
+  display: flex;
+}
+
+.nav {
+  margin: 100px 0 40px;
+}
+.nav__main {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  opacity: 0.5;
+}
+.nav img {
+  margin-right: 10px;
+}
+.nav div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}/*# sourceMappingURL=company.css.map */

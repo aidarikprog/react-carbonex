@@ -1,0 +1,88 @@
+.nav {
+  margin: 100px 0 40px;
+}
+.nav__main {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  opacity: 0.5;
+}
+.nav img {
+  margin-right: 10px;
+}
+.nav div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact__nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cont__content {
+  margin-bottom: 80px;
+}
+.cont__infos {
+  max-width: 565px;
+}
+.cont__content {
+  display: flex;
+  justify-content: space-between;
+}
+.cont__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #323232;
+  margin-bottom: 24px;
+}
+.cont__info {
+  display: flex;
+  justify-content: space-between;
+}
+.cont__info-left {
+  margin-right: 32px;
+  width: 85px;
+}
+
+.info-left-adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+.info-left-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  opacity: 0.5;
+}
+
+.info-right-adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  margin-bottom: 15px;
+}
+.info-right-tel {
+  color: #007FA7;
+}
+.info-right-tel, .info-right-tel1 {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=contact.css.map */

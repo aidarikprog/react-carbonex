@@ -1,0 +1,21 @@
+.prodcard {
+  max-width: 286px;
+}
+.prodcard__column {
+  background: #007fa7;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+.prodcard__item {
+  padding: 20px 20px 16px 20px;
+}
+.prodcard__img {
+  margin-bottom: 16px;
+}
+.prodcard__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}/*# sourceMappingURL=prodCard.css.map */

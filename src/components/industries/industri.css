@@ -1,0 +1,48 @@
+.ind__heading {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.ind__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 50px 0 35px;
+}
+.ind__columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 445px);
+  gap: 18px 32px;
+  justify-content: space-between;
+}
+.ind__items {
+  text-align: center;
+}
+.ind__item img,
+.ind h1,
+.ind p {
+  margin-bottom: 10px;
+}
+.ind__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.ind__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+  width: 565px;
+}
+.ind__pic {
+  width: 803px;
+  height: 391px;
+}/*# sourceMappingURL=industri.css.map */
